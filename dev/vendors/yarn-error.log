@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\Jovica.Aleksic\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\OpenSSH\bin;C:\Program Files\Git\cmd;C:\graphviz-2.38\release\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\TortoiseGit\bin;C:\Portable\sonar-scanner-3.2.0.1227-windows\bin;C:\Portable\iperf2;C:\ProgramData\chocolatey\bin;C:\Portable\wget-1.19.4-win64;C:\Portable\bash-print-master;C:\Users\Jovica.Aleksic\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\msys64\mingw32\bin;C:\msys64\usr\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\OpenSSH\bin;C:\Program Files\Git\cmd;C:\graphviz-2.38\release\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\TortoiseGit\bin;C:\Portable\sonar-scanner-3.2.0.1227-windows\bin;C:\Portable\iperf2;C:\ProgramData\chocolatey\bin;C:\Portable\wget-1.19.4-win64;C:\Portable\bash-print-master;C:\Users\J;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Projects\@github.com\loopmode@github\cra-yarn-workspace\package.json: Unexpected token } in JSON at position 388
+      at JSON.parse (<anonymous>)
+      at C:\Users\Jovica.Aleksic\AppData\Roaming\nvm\v8.15.0\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Jovica.Aleksic\AppData\Roaming\nvm\v8.15.0\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\Jovica.Aleksic\AppData\Roaming\nvm\v8.15.0\node_modules\yarn\lib\cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "@namespace/dev",
+    "version": "1.0.0",
+    "devDependencies": {
+      "@babel/cli": "^7.1.6",
+      "@babel/core": "^7.1.6",
+      "@babel/plugin-proposal-class-properties": "^7.1.0",
+      "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+      "@babel/plugin-transform-runtime": "^7.1.0",
+      "@babel/preset-env": "^7.1.0",
+      "@babel/preset-react": "^7.0.0",
+      "babel-eslint": "9.x",
+      "eslint": "5.6.0",
+      "eslint-config-prettier": "^4.0.0",
+      "eslint-config-react-app": "^3.0.6",
+      "eslint-plugin-flowtype": "2.x",
+      "eslint-plugin-import": "^2.13.0",
+      "eslint-plugin-jsx-a11y": "*",
+      "eslint-plugin-prettier": "^2.7.0",
+      "eslint-plugin-react": "^7.12.4",
+      "lerna": "^3.11.0",
+      "npm-run-all": "^4.1.5",
+      "prettier": "^1.16.4",
+      "symlink-dir": "^2.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

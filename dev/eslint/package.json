@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "name": "@namespace/eslint-config-eslint",
+  "version": "1.0.0",
+  "main": ".eslintrc"
+}

@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "name": "@namespace/babel",
+  "version": "1.0.0",
+  "main": ".babelrc"
+}
