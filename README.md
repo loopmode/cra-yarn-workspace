@@ -8,7 +8,7 @@ Any additional packages can be transpiled and watched and they are available for
 
 -   Clone this repository and remove the `.git` folder.
 
--   Run a search and replace for the project namespace. Search for `@namespace` and insert your own, e.g.
+-   Run a search and replace for the project namespace. Search for `@namespace` and insert your own, e.g. `@foo`
 
 -   Finally, run `yarn` or `yarn install` in the project root to install the dependencies and create the package symlinks.
 
