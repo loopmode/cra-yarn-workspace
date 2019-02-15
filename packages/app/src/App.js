@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import Foo from "@namespace/foo";
+// create a foo package for a quick test, then uncomment
+// (run ./scripts/create-package.sh foo in the project root)
+// import Foo from "@namespace/foo";
 
 class App extends Component {
     componentDidMount() {
-        this.foo = new Foo();
+        // this.foo = new Foo();
     }
     render() {
         return (
