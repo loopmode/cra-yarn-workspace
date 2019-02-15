@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@lviz/workspace",
+  "name": "@namespace/workspace",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jovica Aleksic <jovica.aleksic@loopmode.de>",
